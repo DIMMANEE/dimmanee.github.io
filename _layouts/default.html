@@ -5,15 +5,11 @@
 
     {% include meta.html %}
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   </head>
 
-  <body>
+  <body class="main-container">
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -24,14 +20,14 @@
       </div>
     </div>
 
-    <div id="main" role="main" class="main-container">
+    <div id="main" role="main" class="container">
       {{ content }}
     </div>
 
     <div class ="wrapper-footer">
-      <footer></footer>
+      <footer>
+        Powered by Jekyll | Hosted on Github Pages
+      </footer>
     </div>
-
-    {% include analytics.html %}
   </body>
 </html>

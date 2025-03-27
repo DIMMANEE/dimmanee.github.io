@@ -25,15 +25,15 @@ body {
 .main-container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px; 
-  border: 1px gray
+  padding: 0 10px;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
 }
 
 .container {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
-  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
