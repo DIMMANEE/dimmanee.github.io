@@ -20,6 +20,7 @@ html {
 body {
 	background: $white;
   color: $darkGray;
+  min-height: 100vh;
 }
 
 .main-container {
@@ -156,7 +157,7 @@ img {
 
 .wrapper-masthead {
   margin-top: 3px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   background-color: #efefef;
   border-bottom: 2px solid #cccccc;
 }
@@ -242,15 +243,10 @@ nav {
 //
 
 .posts > .post {
-  padding-top: 1em;
-  padding-bottom: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.75em;
   border-bottom: 1px dashed #cccccc;
 }
-
-/*
-.posts > .post:last-child {
-  padding-bottom: 1em;
-*/
 
 .post {
   blockquote {
