@@ -10,5 +10,4 @@ Vestibulum porta enim eget lacus porttitor lobortis. Nulla facilisi. Vestibulum 
 
 Cras dictum tempus ante, et semper sem venenatis at. Pellentesque ac ullamcorper tellus, sed imperdiet velit. Pellentesque bibendum sapien vel urna pretium, ut facilisis neque gravida. Aenean rhoncus erat libero, vel viverra mi blandit a. Duis nec diam mauris. Donec non risus sed justo laoreet blandit auctor lacinia turpis. Sed sit amet vestibulum felis. In finibus at sem eget porttitor. Maecenas ac rhoncus nunc. Ut imperdiet iaculis justo quis pulvinar.
 
-
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+shades on imboul wit the glasses bro say err cause he a savage so many dead opps so many ashes you cant catch that i cant pass that shooooooooita stay strapped i dont need mine bro put belt right to they behind the way that switch brr i know he DIN
