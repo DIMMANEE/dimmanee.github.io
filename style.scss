@@ -243,20 +243,18 @@ nav {
 //
 
 .posts > .post {
-  padding-top: 0.5em;
+  padding-top: 0em;
   padding-bottom: 0.75em;
   border-bottom: 1px dashed #cccccc;
 }
 
 .post {
   blockquote {
-    // margin: 1.8em .8em;
-    // padding: 0.1em 1em;
+    margin: 1.8em .8em;
+    padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
-    font-style: italic;
-    border: 1px solid black;
-    background-color: #dedede; 
+    font-style: italic; 
   }
 
   .comments {
@@ -264,9 +262,13 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
     font-size: 15px;
   }
+}
+
+.entry {
+  border: 1px solid #000000;
+  background-color: #dedede; 
 }
 
 .wrapper-footer {
