@@ -23,7 +23,7 @@ body {
 }
 
 .main-container {
-  max-width: 800px;
+  max-width: 740px;
   margin: 0 auto;
   padding: 0 3px;
   border-left: 1px solid #bcbcbc;
@@ -242,18 +242,20 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
   border-bottom: 1px dashed #cccccc;
 }
 
+/*
 .posts > .post:last-child {
   padding-bottom: 1em;
-}
+*/
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
-    padding: 0.1em 1em;
+    // margin: 1.8em .8em;
+    // padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
     font-style: italic;
