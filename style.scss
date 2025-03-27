@@ -26,8 +26,8 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 3px;
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
 }
 
 .container {
@@ -159,6 +159,7 @@ img {
   margin-bottom: 50px;
   background-color: #efefef;
   border-bottom: 2px solid #d2d2d2;
+  overflow: hidden;
 }
 
 .masthead {
@@ -243,21 +244,22 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
+  border-bottom: 1px dashed #f0f0f0;
 }
 
 .posts > .post:last-child {
   padding-bottom: 1em;
-  border-bottom: none;
 }
 
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
     font-style: italic;
+    border: 1px solid black;
+    background-color: #dedede; 
   }
 
   .comments {
