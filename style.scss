@@ -19,7 +19,6 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -117,7 +116,6 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
 }
 
 // Specify the color of the selection
@@ -276,11 +274,6 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
-}
-
-footer {
-  padding: 20px 0;
-  text-align: center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
