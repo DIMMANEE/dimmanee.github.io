@@ -38,11 +38,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $darkerGray;
-  font-weight: bold;
+  color: #000000;
+  font-weight: 500;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -266,6 +265,8 @@ nav {
   border: 1px solid #000000;
   background-color: #dedede; 
   padding: 6px !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .wrapper-footer {
