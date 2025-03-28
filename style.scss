@@ -1,25 +1,18 @@
 ---
 ---
 
-//
-// IMPORTS
-//
 @import "variables";
 @import "reset";
-
-// Syntax highlighting @import is at the bottom of this file
-
-/**************/
-/* BASE RULES */
-/**************/
+@import "highlights";
+@import "svg-icons";
 
 html {
   font-size: 100%;
 }
 
 body {
-	background: $white;
-  color: $darkGray;
+	background: #ffffff;
+  color: #000000;
   min-height: 100vh;
 }
 
@@ -111,7 +104,6 @@ img {
   max-width: 100%;
 }
 
-// Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
 }
@@ -130,8 +122,6 @@ img {
   background: $lightGray;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -141,14 +131,6 @@ img {
 .clearfix:after {
     clear: both;
 }
-
-/*********************/
-/* LAYOUT / SECTIONS */
-/*********************/
-
-//
-// .masthead
-//
 
 .wrapper-masthead {
   margin-top: 3px;
@@ -233,14 +215,14 @@ nav {
   }
 }
 
-//
-// .main
-//
-
 .posts > .post {
   padding-top: 0em;
   padding-bottom: 0.75em;
   border-bottom: 1px dashed #cccccc;
+}
+
+.posts > .post:last-child {
+  border-style: none;
 }
 
 .post {
@@ -273,13 +255,16 @@ nav {
   margin-top: auto;
 }
 
+.sidebar {
+  flex: 1; /* Takes up 1 part of the space */
+  background-color: #efefef;
+  padding: 15px;
+  padding-bottom: 100vb;
+}
+
 footer {
+  border-bottom: 1px #cccccc;
   padding: 20px 0;
   text-align: center;
   font-style: italic;
 }
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";
