@@ -17,12 +17,15 @@ body {
 }
 
 .main-container {
-  display: flex;
   max-width: 800px;
   margin: 0 auto;
   padding: 0 3px;
   border-left: 1px solid #bcbcbc;
   border-right: 1px solid #bcbcbc;
+}
+
+.content-container {
+  display: flex;
 }
 
 .container {
