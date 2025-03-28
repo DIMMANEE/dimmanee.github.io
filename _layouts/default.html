@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ site.description }}{% if page.title %} – {{ page.title }}{% endif %}</title>
+    <title>{{ site.name }}{% if page.title %} – {{ page.title }}{% endif %}</title>
 
     {% include meta.html %}
 
@@ -14,7 +14,7 @@
       <div class="container">
         <header class="masthead clearfix">
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.description }}</a></h1>
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
           </div>
         </header>
       </div>
@@ -26,8 +26,12 @@
       </div>
 
       <div class="sidebar">
-        lorem ipsum on that thang
-        literal toilet by the freaking way
+        <a href="http://github.com/DIMMANEE" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+        <div class="sidebar-info">
+          <p class="site-name"><a href="http://github.com/DIMMANEE">DIMMANEE</a></p>
+          <a href="{{ site.baseurl }}/about">about</a>
+        </div>
       </div>
     </div>
 
