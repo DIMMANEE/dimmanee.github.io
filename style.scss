@@ -52,6 +52,9 @@ h1 {
   font-size: 20px;
   a {
     color: inherit;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
@@ -70,10 +73,14 @@ h4 {
 
 a {
   color: $blue;
-  text-decoration: underline;
+  text-decoration: none;
 	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
+  &:active {
+    color: blue;
+  }
+  &:hover {
+    color: blue;
+    text-decoration: underline;
   }
 }
 
