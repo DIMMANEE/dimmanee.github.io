@@ -17,6 +17,7 @@ body {
 }
 
 .main-container {
+  display: flex;
   max-width: 800px;
   margin: 0 auto;
   padding: 0 3px;
@@ -215,6 +216,9 @@ nav {
   }
 }
 
+#main {
+  flex: 3;
+}
 .posts > .post {
   padding-top: 0em;
   padding-bottom: 0.75em;
@@ -246,7 +250,7 @@ nav {
 .entry {
   border: 1px solid #000000;
   background-color: #dedede; 
-  padding: 6px !important;
+  padding: 7px !important;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -256,7 +260,7 @@ nav {
 }
 
 .sidebar {
-  flex: 1; /* Takes up 1 part of the space */
+  flex: 1;
   background-color: #efefef;
   padding: 15px;
   padding-bottom: 100vb;
