@@ -142,18 +142,15 @@ strong, b {
 }
 
 .site-avatar {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   padding: 5px;
+  border-radius: 5px;
 
   @include mobile {
     float: none;
     display: block;
     margin: 0 auto;
-  }
-
-  img {
-    border-radius: 5px;
   }
 }
 
@@ -175,6 +172,14 @@ strong, b {
   font-style: bold;
 
   letter-spacing: 1px;
+}
+
+.sidebar-name {
+  margin: 0;
+  color: #000000;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .site-description {
