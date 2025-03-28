@@ -19,7 +19,7 @@ body {
 .main-container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 3px;
+  padding: 0 2px;
   border-left: 1px solid #bcbcbc;
   border-right: 1px solid #bcbcbc;
 }
@@ -40,6 +40,8 @@ h1, h2, h3, h4, h5, h6 {
 
   line-height: 1.7;
   padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.6em;
 
   @include mobile {
     line-height: 1.4;
@@ -102,10 +104,6 @@ em, i {
 
 strong, b {
   font-weight: bold;
-}
-
-img {
-  max-width: 100%;
 }
 
 .gmnoprint img {
@@ -221,6 +219,7 @@ nav {
 #main {
   flex: 3;
 }
+
 .posts > .post {
   padding-top: 0em;
   padding-bottom: 0.75em;
