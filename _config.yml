@@ -2,6 +2,8 @@
 # This file contains configuration flags to customize your site
 #
 
+username: DIMMANEE
+
 # Name of your site (displayed in the header)
 name: physics blog
 
@@ -21,7 +23,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github:
+  github: http://github.com/DIMMANEE
   instagram:
   linkedin:
   pinterest:
