@@ -142,8 +142,8 @@ strong, b {
 }
 
 .site-avatar {
-  width: 30px;
-  height: 30px;
+  width: 70px;
+  height: 70px;
   padding: 5px;
 
   @include mobile {
@@ -265,7 +265,9 @@ nav {
 
 .sidebar-info {
   float: center;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 footer {
