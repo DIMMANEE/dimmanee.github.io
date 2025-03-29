@@ -8,6 +8,7 @@
 
 html {
   font-size: 100%;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -115,6 +116,7 @@ strong, b {
 
 .date {
   font-style: italic;
+  margin-top: 5px;
 }
 
 // Specify the color of the selection
@@ -281,6 +283,16 @@ nav {
   align-items: center;
   text-align: center;
 }
+
+.archive {
+  p {
+    font-style: bold;
+  }
+}
+
+//.archive-list {
+
+//}
 
 footer {
   border-bottom: 1px #cccccc;
