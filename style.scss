@@ -151,10 +151,11 @@ strong, b {
 }
 
 .site-avatar {
+  margin-top: 50px;
   width: 80px;
   height: 80px;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 30px;
 
   @include mobile {
     float: none;
@@ -187,7 +188,7 @@ strong, b {
   margin: 0;
   color: #000000;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
 }
 
