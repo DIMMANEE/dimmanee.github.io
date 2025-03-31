@@ -155,7 +155,6 @@ strong, b {
   width: 80px;
   height: 80px;
   padding: 5px;
-  border-radius: 30px;
 
   @include mobile {
     float: none;
@@ -285,15 +284,15 @@ nav {
   text-align: center;
 }
 
-.archive {
+.archives {
   p {
     font-style: bold;
   }
 }
 
-//.archive-list {
+//.archives-container {}
 
-//}
+//.archive-item {}
 
 footer {
   border-bottom: 1px #cccccc;
