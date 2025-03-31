@@ -19,21 +19,16 @@ layout: default
 </div>
 {% endcapture %}
 
-{{ content_posts}}
-
-
 {% capture content_archives %}
 <div class="archives">
   <ul>
     {% for archive in site.archives %}
       <span>
         <li class="archive-item">
-          <a href="{{ site.baseurl }}/assets/{{ archive.content }}">{{ archive.title }}</a>
+          <a href="{{ archive.url }}">{{ archive.title }}</a>
         </li>
       </span>
     {% endfor %}
   </ul>
 </div>
 {% endcapture %}
-
-{{ content_archives }}
