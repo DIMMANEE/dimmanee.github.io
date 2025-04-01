@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% capture content_posts %}
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
@@ -17,19 +16,3 @@ layout: default
     </article>
   {% endfor %}
 </div>
-{% endcapture %}
-
-{% capture content_archives %}
-<div class="archives">
-  <p>Archives:</p>
-  <ul>
-    {% for archive in site.archives %}
-      <span>
-        <li class="archive-item">
-          <a href="{{ archive.url }}">{{ archive.title }}</a>
-        </li>
-      </span>
-    {% endfor %}
-  </ul>
-</div>
-{% endcapture %}
