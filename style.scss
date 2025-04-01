@@ -296,6 +296,13 @@ nav {
 
 //.archive {}
 
+.archive-file {
+  border: 0;
+  overflow: auto;
+  height: 300%;
+  width: 100%;
+}
+
 footer {
   border-bottom: 1px #cccccc;
   padding: 20px 0;

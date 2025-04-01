@@ -9,14 +9,12 @@ layout: default
         {{ content }}
 
         {% if page.file %}
-            <embed
-            src="/assets/{{ page.file | strip }}"
-            type="application/pdf"
-            frameBorder="0"
-            scrolling="auto"
-            height="100%"
-            width="100%"
-            ></embed>
+            <div class="archive-file">
+                <embed
+                src="/assets/{{ page.file | strip }}"
+                type="application/pdf"
+                ></embed>
+            </div>
         {% endif %}
     </div>
 
