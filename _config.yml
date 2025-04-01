@@ -7,10 +7,10 @@ description: physics blog
 avatar: https://avatars.githubusercontent.com/u/203735438?v=4
 
 
-# collections:
-  # archives:
-    # output: true
-    # permalink: /archives/:title
+collections:
+  archives:
+    output: true
+    permalink: /archives/:title
 
 footer-links:
   dribbble:
