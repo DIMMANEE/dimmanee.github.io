@@ -286,9 +286,6 @@ nav {
 
 
 .archives-container {
-  height: 100%;
-  width: 100%;
-  
   p {
     font-style: bold;
   }
@@ -302,9 +299,12 @@ nav {
   padding: 7px !important;
   margin-top: 5px;
   margin-bottom: 5px;
+  height: 100%;
+  width: 100%;
 }
 
 .archive-file {
+  margin: 5px;
   border: 0;
   overflow: auto;
   height: 300%;
