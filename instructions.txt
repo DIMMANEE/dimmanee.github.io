@@ -1,0 +1,61 @@
+These are the instructions to upload posts/archive files to the blog
+
+Posts (text only):
+1.  Navigate to the _posts directory located in the root directory of the website
+    
+2.  Make a new file with a name in this specific format: YYYY-MM-DD-filename.md
+    For example: "2025-4-01-example.md" would make a page with the published date of April 1, 2025 and the link of "https://dimmanee.github.io/example/"
+    The file name can be whatever you want; it is seperate from the actual title, which is set in the file itself, as seen in the next step
+    However, the file name does determine what the link to the post will be, so I recommend making the file name similar to the title that you will later choose
+
+3.  In the file type out this header at the top (with the triple dashes; make sure to change the title):
+        ---
+        layout: post
+        title: [insert title here]
+        ---
+
+    Example: 
+        ---
+        layout: post
+        title: example post
+        ---
+
+        this is a post with some text
+
+    Remember that the title that you type here will show up on the actual website, the file name will show up on the link
+
+4.  After the header (after the second set of triple dashes), you can type out whatever you want to put as the actual post
+    You can lookup "markdown syntax" on a search engine to find how to insert links, images, or anything else needed for a post
+
+5.  Once the post is complete, commit your change and push
+    From codespaces, go to source control, type a commit message, then press the arrow next to "Commit" and press "Commit & Push"
+    From the GitHub website, just press the "Commit changes..." button
+    From the terminal, first enter "git add .", then "git commit -m [insert commit message]", and finally "git push origin main"
+    IMPORTANT:  Make sure you are on the current version of the blog or else there will be merging errors
+                To fix these, first type (still figuring out commands) 
+
+
+Archives (text and files):
+1.  Do the exact same first and second step as for making a post, except the file needs to be in the _archives directory located in the root directory
+
+2.  Once again add a header to the top of the file
+        ---
+        layout: archive
+        title: [insert title here]
+        file: [insert file name here]
+        ---
+
+    Make sure to put the file in the assets directory located in the root directory
+    Note that the files can only be .pdf files (I might add more working types later)
+
+    Example: 
+        ---
+        layout: archive
+        title: example file with text
+        file: example.pdf
+        ---
+
+        this is a post with text on top and an example .pdf file underneath
+
+3.  Do the exact same thing as fourth and fifth step to add text and publish the archive on the blog
+
