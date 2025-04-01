@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: post
 title: quantum orb number 2
 ---
 
