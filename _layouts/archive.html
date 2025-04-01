@@ -8,16 +8,16 @@ layout: default
     <div class="archive">
         {{ content }}
 
-        <script>alert("the frggin stuff: {{ archive.content }}");</script>
-
-        <embed
-        src="/assets/{{ archive.content }}"
-        type="application/pdf"
-        frameBorder="0"
-        scrolling="auto"
-        height="100%"
-        width="100%"
-        ></embed>
+        {% if page.file %}
+            <embed
+            src="/assets/{{ page.file | strip }}"
+            type="application/pdf"
+            frameBorder="0"
+            scrolling="auto"
+            height="100%"
+            width="100%"
+            ></embed>
+        {% endif %}
     </div>
 
     <!--
@@ -25,7 +25,7 @@ layout: default
 
     <iframe src="https://dimmanee.github.io/assets/time_dilation.pdf" width="100%" height="600px"></iframe>
     -->
-    
+
     <div class="date">
         Written on {{ page.date | date: "%B %e, %Y" }}
     </div>
