@@ -284,17 +284,25 @@ nav {
   text-align: center;
 }
 
-.archives {
+
+.archives-container {
+  height: 100%;
+  width: 100%;
+  
   p {
     font-style: bold;
   }
 }
 
-//.archives-container {}
-
 //.archive-item {}
 
-//.archive {}
+.archive {
+  border: 1px solid #000000;
+  background-color: #dedede; 
+  padding: 7px !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 .archive-file {
   border: 0;

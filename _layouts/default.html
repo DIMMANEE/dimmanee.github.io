@@ -35,18 +35,16 @@
         <br></br>
 
         <div class="archive-container">
-          <div class="archives">
-            <p>Archives:</p>
-            <ul>
-              {% for archive in site.archives %}
-                <span>
-                  <li class="archive-item">
-                    <a href="{{ archive.url }}">{{ archive.title }}</a>
-                  </li>
-                </span>
-              {% endfor %}
-            </ul>
-          </div>
+          <p>Archives:</p>
+          <ul>
+            {% for archive in site.archives %}
+              <span>
+                <li class="archive-item">
+                  <a href="{{ archive.url }}">{{ archive.title }}</a>
+                </li>
+              </span>
+            {% endfor %}
+          </ul>
         </div>
       </div>
     </div>
