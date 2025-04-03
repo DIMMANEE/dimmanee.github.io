@@ -61,6 +61,5 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  - CNAME
   - _posts/2000-1-01-example-post.md
   - _archives/2000-1-01-example-archive.md

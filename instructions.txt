@@ -59,3 +59,6 @@ Archives (text and files):
 
 3.  Do the exact same thing as fourth and fifth step to add text and publish the archive on the blog
 
+
+Examples for both types of post are available in the respective directories.
+Don't worry they will not show up on the actual blog, they are just there to help with formatting

@@ -151,7 +151,7 @@ strong, b {
 }
 
 .site-avatar {
-  margin-top: 50px;
+  margin-top: 30px;
   width: 80px;
   height: 80px;
   padding: 5px;
@@ -266,10 +266,6 @@ nav {
   margin-bottom: 5px;
 }
 
-.wrapper-footer {
-  margin-top: auto;
-}
-
 .sidebar {
   flex: 1;
   background-color: #efefef;
@@ -307,9 +303,13 @@ nav {
   overflow: auto;
 }
 
-footer {
-  border-bottom: 1px #cccccc;
-  padding: 20px 0;
-  text-align: center;
-  font-style: italic;
+.wrapper-footer {
+  margin-top: auto;
+  border-top: 1px dashed #cccccc;
+  footer {
+    font-size: 8px;
+    font-style: italic;
+    padding: 20px 0;
+    text-align: center;
+  }
 }

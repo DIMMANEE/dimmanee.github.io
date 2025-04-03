@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: example title
-file: example.pdf
+file: time_dilation.pdf
 ---
 
 this is the text that will show up on the blog post
