@@ -23,6 +23,13 @@
     <div class="content-container">
       <div id="main" role="main" class="container">
         {{ content }}
+        
+        <div class ="wrapper-footer">
+          <footer>
+            Powered by Jekyll | Hosted on Github Pages
+            @2025 <a href="{{ site.footer-links.github }}">{{ site.username }}</a>
+          </footer>
+        </div>
       </div>
 
       <div class="sidebar">
@@ -47,12 +54,6 @@
           </ul>
         </div>
       </div>
-    </div>
-
-    <div class ="wrapper-footer">
-      <footer>
-        Powered by Jekyll | Hosted on Github Pages
-      </footer>
     </div>
 
     {% include analytics.html %}

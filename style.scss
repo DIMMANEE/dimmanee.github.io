@@ -307,9 +307,17 @@ nav {
   margin-top: auto;
   border-top: 1px dashed #cccccc;
   footer {
-    font-size: 8px;
+    font-size: 10px;
     font-style: italic;
-    padding: 20px 0;
+    padding: 5px 0;
     text-align: center;
+  }
+  a {
+    color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+    &:hover{
+      text-decoration: none;
+    }
   }
 }
