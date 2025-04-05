@@ -1,7 +1,7 @@
 These are the instructions to upload posts/archive files to the blog
 
 Posts (text only):
-1.  Navigate to the _posts directory located in the root directory of the website
+1.  Navigate to the _posts/ directory located in the root directory of the website
     
 2.  Make a new file with a name in this specific format: YYYY-MM-DD-filename.md
     For example: "2025-4-01-example.md" would make a page with the published date of April 1, 2025 and the link of "https://dimmanee.github.io/example/"
@@ -36,7 +36,7 @@ Posts (text only):
 
 
 Archives (text and files):
-1.  Do the exact same first and second step as for making a post, except the file needs to be in the _archives directory located in the root directory
+1.  Do the exact same first and second step as for making a post, except the file needs to be in the _archives/ directory located in the root directory
 
 2.  Once again add a header to the top of the file
         ---
@@ -45,7 +45,7 @@ Archives (text and files):
         file: [insert file name here]
         ---
 
-    Make sure to put the file in the /assets/uploads/ directory located in the root directory
+    Make sure to put the file in the assets/uploads/ directory located in the root directory
     Note that the files can only be .pdf files (I might add more working types later)
 
     Example: 
