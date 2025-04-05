@@ -11,18 +11,12 @@ layout: default
         {% if page.file %}
             <div class="archive-file">
                 <embed
-                src="/assets/{{ page.file | strip }}"
+                src="/assets/uploads/{{ page.file | strip }}"
                 type="application/pdf"
                 ></embed>
             </div>
         {% endif %}
     </div>
-
-    <!--
-    <embed src="https://dimmanee.github.io/assets/time_dilation.pdf" type="application/pdf" width="100%" height="600px">
-
-    <iframe src="https://dimmanee.github.io/assets/time_dilation.pdf" width="100%" height="600px"></iframe>
-    -->
 
     <div class="date">
         Written on {{ page.date | date: "%B %e, %Y" }}

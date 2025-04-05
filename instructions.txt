@@ -45,7 +45,7 @@ Archives (text and files):
         file: [insert file name here]
         ---
 
-    Make sure to put the file in the assets directory located in the root directory
+    Make sure to put the file in the /assets/uploads/ directory located in the root directory
     Note that the files can only be .pdf files (I might add more working types later)
 
     Example: 

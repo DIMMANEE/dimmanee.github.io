@@ -6,6 +6,7 @@
     {% include meta.html %}
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   </head>
 
@@ -26,8 +27,9 @@
         
         <div class ="wrapper-footer">
           <footer>
-            Powered by Jekyll | Hosted on Github Pages
             @2025 <a href="{{ site.footer-links.github }}">{{ site.username }}</a>
+            <br></br>
+            Powered by Jekyll | Hosted on Github Pages
           </footer>
         </div>
       </div>
@@ -42,8 +44,11 @@
         <br></br>
 
         <div class="archive-container">
-          <p>Archives:</p>
-          <ul>
+          <span class="archive-span">
+            <button onclick="dropdown()" id="archive-btn">+</button>
+            <p>Archives</p>
+          </span>
+          <ul id="archive-list">
             {% for archive in site.archives %}
               <span>
                 <li class="archive-item">
@@ -57,5 +62,7 @@
     </div>
 
     {% include analytics.html %}
+
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>

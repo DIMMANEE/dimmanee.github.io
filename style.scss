@@ -285,6 +285,14 @@ nav {
   p {
     font-style: bold;
   }
+  ul {
+    list-style-type: none;
+  }
+}
+
+#archive-list {
+  display: none;
+  margin-top: 5px;
 }
 
 //.archive-item {}
@@ -303,9 +311,21 @@ nav {
   overflow: auto;
 }
 
+#archive-btn {
+  font-weight: bold;
+  border: none;
+  background-color: #efefef;
+}
+
+.archive-span {
+	display: flex;
+  align-items: center;
+}
+
 .wrapper-footer {
   margin-top: auto;
   border-top: 1px dashed #cccccc;
+  color: #cccccc;
   footer {
     font-size: 10px;
     font-style: italic;
@@ -313,7 +333,6 @@ nav {
     text-align: center;
   }
   a {
-    color: #000000;
     text-decoration: underline;
     cursor: pointer;
     &:hover{
